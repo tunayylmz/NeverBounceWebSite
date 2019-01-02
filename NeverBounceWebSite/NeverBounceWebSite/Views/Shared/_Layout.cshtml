@@ -1,0 +1,313 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+
+    <meta charset="UTF-8">
+
+    <!-- mobile responsive meta -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+
+    <link href="~/css/style.css" rel="stylesheet" />
+    <link href="~/css/responsive.css" rel="stylesheet" />
+    <link href="~/css/font-awesome.css" rel="stylesheet" />
+    <link rel="icon" type="image/png" sizes="180x180" href="images/fav-icon/172x172.png">
+    <link rel="icon" type="image/png" href="/images/fav-icon/172x172.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/images/fav-icon/172x172.png.png" sizes="16x16">
+</head>
+
+<body>
+
+    <header class="top-bar"></header>
+
+
+    <section class="theme_menu stricky">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="main-logo">
+                        <a href="/Home/index"><img src="~/images/logo/logo.png" alt=""></a>
+                    </div>
+                </div>
+                <div class="col-md-8 menu-column">
+                    <nav class="menuzord" id="main_menu">
+                        <ul class="menuzord-menu">
+                            <li class="active"><a href="/Home/index">Home</a></li>
+
+                            <li>
+                                <a href="#">Features</a>
+
+                            </li>
+                            <li>
+                                <a href="#">Pricing</a>
+
+                            </li>
+                            <li>
+                                <a href="/Home/dealership">Integrations</a>
+
+                            </li>
+                            <li>
+                                <a href="#">Resources</a>
+                                <ul class="dropdown">
+                                    <li>
+                                        <a href="/Home/service1">PRODUCT</a>
+                                        <ul class="dropdown">
+                                            <li><a href="/Home/service2">Enterprice</a></li>
+                                            <li><a href="/Home/service3">Nonprofits</a></li>
+                                            <li><a href="/Home/service3">Startups</a></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="/Home/service2">GET HELP</a>
+                                        <ul class="dropdown">
+                                            <li><a href="/Home/service2">Contact</a></li>
+                                            <li><a href="/Home/service3">Help Desk</a></li>
+                                            <li><a href="/Home/service3">API Docs</a></li>
+                                            <li><a href="/Home/service3">Status</a></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="/Home/service3">ABOUT AS</a>
+                                        <ul class="dropdown">
+                                            <li><a href="/Home/service2">About As</a></li>
+                                            <li><a href="/Home/service3">Press</a></li>
+                                            <li><a href="/Home/service3">Careers</a></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="/Home/service3">MORE</a>
+                                        <ul class="dropdown">
+                                            <li><a href="/Home/service2">Request A Demo</a></li>
+                                            <li><a href="/Home/service3">Blog</a></li>
+                                            <li><a href="/Home/service3">Partners</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+
+
+
+                    </nav>
+                    <div class="right-column">
+                        <div class="right-area">
+                            <div class="nav_side_content">
+                                <div class="search_option">
+
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+    <div>
+        @RenderBody()
+    </div>
+
+
+
+
+
+
+
+    <footer class="main-footer">
+        <div class="call-out">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3 col-sm-12">
+                        <figure class="logo">
+                            <a href="index.html"><img src="images/logo/logo.png" alt=""></a>
+                        </figure>
+                    </div>
+                    <div class="col-md-9 col-sm-12">
+                        <div class="float_left">
+                            <h4></h4>
+                        </div>
+                        <div class="float_right">
+                            <a href="contact.html" class="thm-btn-tr">Request Quote</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <!--Widgets Section-->
+        <div class="widgets-section">
+            <div class="container">
+                <div class="row">
+                    <!--Big Column-->
+                    <div class="big-column col-md-6 col-sm-12 col-xs-12">
+                        <div class="row clearfix">
+
+                            <!--Footer Column-->
+                            <div class="footer-column col-md-6 col-sm-6 col-xs-12">
+                                <div class="footer-widget about-widget">
+                                    <h3 class="footer-title">About Us</h3>
+
+                                    <div class="widget-content">
+                                        <div class="text"><p> Medicawell is a high-tech medical tourism company which established to make health tourism easy for you. We connect best hospitals, clinics, doctors and you via Medicawell web-portal. You could easily get second opinions or treatment plans just by clicks.</p> </div>
+                                        <div class="link">
+                                            <a href="about.cshtml" class="default_link">More About us <i class="fa fa-angle-right"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--Footer Column-->
+                            <div class="footer-column col-md-6 col-sm-6 col-xs-12">
+                                <div class="footer-widget links-widget">
+                                    <h3 class="footer-title">Our Services</h3>
+                                    <div class="widget-content">
+                                        <ul class="list">
+                                            <li><a href="/Home/service1">Business Growth</a></li>
+                                            <li><a href="/Home/service2">Sustainability</a></li>
+                                            <li><a href="/Home/service3">Performance</a></li>
+                                            <li><a href="/Home/service4">Advanced Analytics</a></li>
+                                            <li><a href="/Home/service5">Customer Insights</a></li>
+                                            <li><a href="/Home/service6">Organization</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--Big Column-->
+                    <div class="big-column col-md-6 col-sm-12 col-xs-12">
+                        <div class="row clearfix">
+
+
+                            <!--Footer Column-->
+                            <div class="footer-column col-md-6 col-sm-6 col-xs-12">
+                                <div class="footer-widget contact-widget">
+                                    <h3 class="footer-title">Contact us</h3>
+                                    <div class="widget-content">
+                                        <ul class="contact-info">
+                                            <li>
+                                                <span class="icon-signs"></span>SELENIUM RETRO A BLOK 6. KAT NO:81 ATAKÖY 7-8-9-10. KISIM MAH.
+                                                <br>BAKIRKÖY-İSTANBUL / TURKEY
+                                            </li>
+                                            <li><span class="icon-phone-call"></span> Phone: (+90) 212 801 4255</li>
+                                            <li><span class="icon-e-mail-envelope"></span>info@medicawell.com</li>
+                                        </ul>
+                                    </div>
+                                    <ul class="social">
+                                        <li><a href="https://www.facebook.com/medidermanco/"><i class="fa fa-facebook"></i></a></li>
+                                        <li><a href="https://twitter.com/medica_well"><i class="fa fa-twitter"></i></a></li>
+                                        <li><a href="https://tr.linkedin.com/company/medidermanhealthtourism"><i class="fa fa-linkedin"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <!--Footer Column-->
+                            <div class="footer-column col-md-6 col-sm-6 col-xs-12">
+                                <div class="footer-widget news-widget">
+                                    <h3 class="footer-title">Newsletter</h3>
+                                    <div class="widget-content">
+                                        <!--Post-->
+                                        <div class="text"><p>Sign up today for hints, tips and the <br>latest product news</p></div>
+                                        <!--Post-->
+                                        <form action="#" class="default-form">
+                                            <input type="email" placeholder="Email Address">
+                                            <button type="submit" class="thm-btn">Subscribe Us</button>
+                                        </form>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <!--Footer Bottom-->
+        <section class="footer-bottom">
+            <div class="container">
+                <div class="pull-left copy-text">
+                    <p>Copyrights © 2018 All Rights Reserved. Powered by  <a href="http://medicawell.com"> Medicawell.</a></p>
+
+                </div><!-- /.pull-right -->
+                <div class="pull-right get-text">
+                    <ul>
+                        <li><a href="#">Support |  </a></li>
+                        <li><a href="#">Privacy & Policy |</a></li>
+                        <li><a href="#"> Terms & Conditions</a></li>
+                    </ul>
+                </div><!-- /.pull-left -->
+            </div><!-- /.container -->
+        </section>
+
+
+
+    </footer>
+
+    <button class="scroll-top tran3s color2_bg">
+        <span class="fa fa-angle-up"></span>
+    </button>
+    <!-- pre loader  -->
+    <div class="preloader"></div>
+
+
+    <!-- jQuery js -->
+    <script src="@Url.Content("/js/jquery.js")"></script>
+    <!-- bootstrap js -->
+    <script src="@Url.Content("/js/bootstrap.min.js")"></script>
+    <!-- jQuery ui js -->
+    <script src="@Url.Content("/js/jquery-ui.js")"></script>
+    <!-- owl carousel js -->
+    <script src="@Url.Content("/js/owl.carousel.min.js")"></script>
+    <!-- jQuery validation -->
+    <script src="@Url.Content("/js/jquery.validate.min.js")"></script>
+
+    <!-- mixit up -->
+    <script src="@Url.Content("/js/wow.js")"></script>
+    <script src="@Url.Content("/js/jquery.mixitup.min.js")"></script>
+    <script src="@Url.Content("/js/jquery.fitvids.js")"></script>
+    <script src="@Url.Content("/js/bootstrap-select.min.js")"></script>
+    <script src="@Url.Content("/js/menuzord.js")"></script>
+
+    <!-- revolution slider js -->
+    <script src="@Url.Content("/js/jquery.themepunch.tools.min.js")"></script>
+    <script src="@Url.Content("/js/jquery.themepunch.revolution.min.js")"></script>
+    <script src="@Url.Content("/js/revolution.extension.actions.min.js")"></script>
+    <script src="@Url.Content("/js/revolution.extension.carousel.min.js")"></script>
+    <script src="@Url.Content("/js/revolution.extension.kenburn.min.js")"></script>
+    <script src="@Url.Content("/js/revolution.extension.layeranimation.min.js")"></script>
+    <script src="@Url.Content("/js/revolution.extension.migration.min.js")"></script>
+    <script src="@Url.Content("/js/revolution.extension.navigation.min.js")"></script>
+    <script src="@Url.Content("/js/revolution.extension.parallax.min.js")"></script>
+    <script src="@Url.Content("/js/revolution.extension.slideanims.min.js")"></script>
+    <script src="@Url.Content("/js/revolution.extension.video.min.js")"></script>
+
+    <!-- fancy box -->
+    <script src="@Url.Content("/js/jquery.fancybox.pack.js")"></script>
+    <script src="@Url.Content("/js/jquery.polyglot.language.switcher.js")"></script>
+    <script src="@Url.Content("/js/nouislider.js")"></script>
+    <script src="@Url.Content("/js/jquery.bootstrap-touchspin.js")"></script>
+    <script src="@Url.Content("/js/SmoothScroll.js")"></script>
+    <script src="@Url.Content("/js/jquery.appear.js")"></script>
+    <script src="@Url.Content("/js/jquery.countTo.js")"></script>
+    <script src="@Url.Content("/js/jquery.flexslider.js")"></script>
+    <script src="@Url.Content("/js/imagezoom.js")"></script>
+    <script id="map-script" src="@Url.Content("/js/default-map.js")"></script>
+    <script src="@Url.Content("/js/custom.js")"></script>
+
+
+</body>
+</html>
